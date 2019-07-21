@@ -63,6 +63,7 @@
                 android:id="@+id/search_bar_text"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:gravity="center_vertical|start"
                 android:layout_gravity="center_vertical|start"
                 android:paddingLeft="5dp"
                 android:paddingStart="5dp"
