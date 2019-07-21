@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.v7.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:background="@drawable/suggestion_item_background"
     android:orientation="horizontal">
 
-    <ImageView
+    <android.support.v7.widget.AppCompatImageView
         android:id="@+id/left_icon"
         android:layout_width="@dimen/square_button_size"
         android:layout_height="@dimen/square_button_size"
@@ -17,7 +17,7 @@
         android:visibility="visible"
         android:layout_marginLeft="@dimen/search_bar_left_icon_left_margin" />
 
-    <TextView
+    <android.support.v7.widget.AppCompatTextView
         android:id="@+id/body"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -32,7 +32,7 @@
         tools:text="body"
         android:layout_marginLeft="@dimen/search_bar_search_input_left_margin" />
 
-    <ImageView
+    <android.support.v7.widget.AppCompatImageView
         android:id="@+id/right_icon"
         android:layout_width="@dimen/square_button_size"
         android:layout_height="@dimen/square_button_size"
@@ -46,4 +46,4 @@
         android:visibility="visible"
         android:layout_marginRight="@dimen/search_bar_right_icon_right_margin" />
 
-</LinearLayout>
+</android.support.v7.widget.LinearLayoutCompat>

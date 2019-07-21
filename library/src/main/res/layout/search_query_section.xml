@@ -23,7 +23,7 @@
             android:layout_marginLeft="@dimen/search_bar_left_icon_left_margin"
             android:layout_marginStart="@dimen/search_bar_left_icon_left_margin">
 
-            <ImageView
+            <android.support.v7.widget.AppCompatImageView
                 android:id="@+id/left_action"
                 android:layout_width="@dimen/square_button_size"
                 android:layout_height="@dimen/square_button_size"
@@ -81,7 +81,7 @@
                 android:textSize="@dimen/search_bar_text_size"/>
         </FrameLayout>
 
-        <ImageView
+        <android.support.v7.widget.AppCompatImageView
             android:id="@+id/clear_btn"
             android:layout_width="@dimen/square_button_size"
             android:layout_height="@dimen/square_button_size"
